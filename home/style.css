@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E9CECE;
+    font-family: 'Bree Serif', serif;
+}
+
+.agradecimento {
+    background-color: #8C3C3C;
+    border-bottom-right-radius: 60px;
+}
+
+.agradecimento h2 {
+    width: 156px;
+    height: 87px;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 150px;
+}
+
+.agradecimento img {
+    left: 0;
+    position: fixed;
+}
+
+.funcoes h3 {
+    width: 362px;
+    height: 24px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.funcoes .cards .card {
+    width: 146px;
+    height: 127px;
+    background-color: #8C3C3C;
+    border-radius: 15px;
+    box-shadow: 10px 9px 9px rgba(0, 0, 0, 0.45);
+}
+
+.funcoes .cards .card p {
+    font-size: 13px;
+    line-height: 16px;
+    color: #E9CECE;
+}
+
+.funcoes .cards .card img {
+    width: 80px;
+    height: 80px;
+    margin: 0px auto;
+}
+
+.footer {
+    background-color: #8C3C3C;
+    width: 96%;
+    height: 50px;
+    border-radius: 20px 20px 0px 0px;
+    bottom: 0;
+    position: fixed;
+}
+
+.footer a img {
+    height: 50px;
+    width: 50px;
+}

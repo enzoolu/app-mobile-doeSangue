@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- arquivos style -->
+  <link href="./style.css" rel="stylesheet">
+
+  <title>Calendario Doa Sangue</title>
+</head>
+<body>
+
+    <div class="calendario">
+        <div id="container">
+            <div id="header">
+              <div id="monthDisplay"></div>
+      
+              <div>
+                <button class="button" id="backButton">Voltar</button>
+                <button class="button" id="nextButton">Próximo</button>
+              </div>
+                
+            </div>
+      
+            <div id="weekdays">
+              <div>Domingo</div>
+              <div>Segunda-feira</div>
+              <div>Terça-feira</div>
+              <div>Quarta-feira</div>
+              <div>Quinta-feira</div>
+              <div>Sexta-feira</div>
+              <div>Sábado</div>
+            </div>
+      
+      
+            <!-- div dinamic -->
+            <div id="calendar" ></div>
+      
+         
+        </div>
+      
+        <div id="newEventModal">
+          <h2>Registre Sua doação</h2>
+      
+          <input id="eventTitleInput"/>
+      
+          <button id="saveButton"> Salvar</button>
+          <button id="cancelButton">Cancelar</button>
+        </div>
+      
+        <div id="deleteEventModal">
+          <h2>Evento</h2>
+      
+          <div id="eventText"></div><br>
+      
+      
+          <button id="deleteButton">Deletar</button>
+          <button id="closeButton">Fechar</button>
+        </div>
+      
+        <div id="modalBackDrop"></div>
+    </div>
+
+  
+    <div class="footer d-flex align-itens-center justify-content-around ms-2">
+        <a href="../home/index.html"><img src="../perfil/images/icon-home.svg" alt=""></a>
+        <a href="../mapa/index.html"><img src="../perfil/images/icon-map.svg" alt=""></a>
+        <a href="../perfil/index.html"><img src="../perfil/images/icon-user.svg" alt=""></a>
+    </div>
+
+  <script src="./app.js"></script>
+  
+</body>
+</html>
